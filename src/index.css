@@ -1,9 +1,25 @@
-
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .hole {
   background: url("/hole.png") no-repeat center/contain;
+  width: 10em;
+  height: 10em;
+  border: none;
 }
 
 .mole {
   background-image: url("/mole.png");
 }
 
+.game-board {
+  display: grid;
+  grid-template-columns: 10em 10em 10em;
+  margin-top: 10px;
+}
+
+p {
+  margin: 10px;
+}
