@@ -25,7 +25,7 @@ export const GameProvider =({children}) => {
     setCurrentPage(!currentPage);
     setCount(0)
     //console.log(count);
-    
+
   }
   
   const moveMole = () => {
